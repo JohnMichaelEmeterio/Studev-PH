@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
 
     <style>
         body {
@@ -34,20 +36,29 @@
     <!-- Sidebar (hidden by default) -->
     <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left bg" 
         style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
-        <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Menu</a>
+        <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Community</a>
         <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
     </nav>
 
     <!-- Top menu -->
-    <div class="w3-top">
+    <div style="position: relative;" class="w3-top">
         <div class="bg w3-xlarge" style="max-width:1200px;margin:auto " >
             <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
             <div class="w3-right w3-padding-16"></div>
-            <div class="w3-center w3-padding-16">STUDEV-PH</div>
+            <div class="w3-center w3-padding-16">Welcome to our community!</div>
         </div>
     </div>
+    
+    
+    <div class="card text-bg-dark">
+        <img style="width: 60%; margin-left: auto; margin-right: auto; margin-top: 50px;" 
+        src="/img/logo.png" class="card-img" alt="...">
+    </div>
 
+
+
+   
     <!-- !PAGE CONTENT! -->
     <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 
